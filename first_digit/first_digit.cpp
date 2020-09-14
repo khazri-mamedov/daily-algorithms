@@ -1,5 +1,4 @@
 #include <system_error>
-#include <iostream>
 
 namespace dailyalgorithms
 {
