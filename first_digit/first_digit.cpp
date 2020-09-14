@@ -9,7 +9,7 @@ namespace dailyalgorithms
         {
             throw std::invalid_argument("Number must be > 0");
         }
-        while(number > 10)
+        while(number >= 10)
         {
             number = number / 10; 
         }
