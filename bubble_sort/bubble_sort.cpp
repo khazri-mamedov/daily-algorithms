@@ -8,9 +8,9 @@ namespace dailyalgorithms
     template<typename T>
     void sort(vector<T>& container)
     {
-        for (size_t i = 0; i != container.size() - 1; ++i)
+        for (size_t i {0}; i != container.size() - 1; ++i)
         {
-            for (size_t j = 0; j != container.size() - i - 1; ++j)
+            for (size_t j {0}; j != container.size() - i - 1; ++j)
             {
                 if (container[j] > container[j + 1])
                 {
