@@ -24,7 +24,6 @@ namespace dailyalgorithms
                 std::swap(container[i], container[i - 1]);
                 --i;
             }
-            
         }
     }
 }
