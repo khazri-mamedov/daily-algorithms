@@ -1,5 +1,4 @@
-#ifndef SHOT_H
-#define SHOT_H
+#pragma once
 
 #include "probability.h"
 #include <vector>
@@ -17,5 +16,3 @@ namespace dailyalgorithms
         std::vector<Probability*> shots;
     };
 }
-
-#endif // SHOT_H
