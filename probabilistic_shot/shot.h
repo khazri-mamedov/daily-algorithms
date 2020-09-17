@@ -13,6 +13,6 @@ namespace dailyalgorithms
         void change_probabilities(Probability*);
 
         private:
-        std::vector<Probability*> shots;
+        std::vector<Probability*>& shots;
     };
 }
