@@ -6,7 +6,7 @@ namespace dailyalgorithms
 
     // Gnome sort or "stupid" sort O(n^2) complexity because of rare decrement
     template<typename T>
-    void sort(vector<T>& container)
+    void gnome_sort(vector<T>& container)
     {
         size_t i {0};
         while (i != container.size())

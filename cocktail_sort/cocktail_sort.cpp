@@ -8,12 +8,12 @@ namespace dailyalgorithms
     void cocktail_sort(vector<T>& container)
     {
         bool swapped {true};
-        int start {0};
-        int end {static_cast<int>(container.size() - 1)};
+        long start {0};
+        long end {static_cast<long>(container.size() - 1)};
 
         while (swapped)
         {
-            for (int i {start}; i < end; ++i)
+            for (long i {start}; i < end; ++i)
             {
                 if (container[i] > container[i + 1])
                 {
@@ -31,7 +31,7 @@ namespace dailyalgorithms
 
             --end;
 
-            for (int i {end - 1}; i >= start; --i)
+            for (long i {end - 1}; i >= start; --i)
             {
                 if (container[i] > container[i + 1])
                 {
