@@ -1,7 +1,6 @@
 #include <cstdlib>
 #include <ctime>
 #include <algorithm>
-#include <iostream>
 #include <random>
 #include <chrono>
 #include "shot.h"
@@ -29,7 +28,7 @@ dailyalgorithms::Probability* dailyalgorithms::Shot::calculate_damage()
         }
         value -= shot->base;
     }
-    return {};
+    return nullptr;
 }
 
 void dailyalgorithms::Shot::change_probabilities(Probability* optimistic_shot)
